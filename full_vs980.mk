@@ -29,4 +29,4 @@ PRODUCT_RESTRICT_VENDOR_FILES := true
 
 # Inherit from hardware-specific part of the product configuration
 $(call inherit-product, device/lge/vs980/device.mk)
-$(call inherit-product-if-exists, vendor/lge/g2/g2-vendor.mk)
+$(call inherit-product-if-exists, vendor/lge/vs980/vs980-vendor.mk)
