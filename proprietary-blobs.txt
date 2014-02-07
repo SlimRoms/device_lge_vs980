@@ -38,7 +38,6 @@ lib/libWVphoneAPI.so
 #lib/libDxHdcp.so
 #lib/liblgehdcpek.so
 #lib/libdiagd_client.so
-lib/libacdbloader.so
 #bin/atd
 #bin/gsiff_daemon
 bin/rmt_storage
@@ -65,6 +64,7 @@ lib/libmorpho_image_stab31.so
 lib/libmmjpeg_interface.so
 lib/libqomx_core.so
 vendor/lib/drm/libdrmwvmplugin.so
+vendor/lib/drm/libdrmprplugin.so
 vendor/lib/egl/eglsubAndroid.so
 vendor/lib/egl/libEGL_adreno.so
 vendor/lib/egl/libGLESv1_CM_adreno.so
@@ -73,7 +73,7 @@ vendor/lib/egl/libq3dtools_adreno.so
 vendor/lib/egl/libplayback_adreno.so
 vendor/lib/hw/power.msm8974.so
 vendor/lib/hw/sensors.msm8974.so
-vendor/lib/libacdbmapper.so
+vendor/lib/libacdbloader.so
 vendor/lib/libacdbrtac.so
 vendor/lib/libadiertac.so
 vendor/lib/libadreno_utils.so
@@ -250,6 +250,7 @@ vendor/lib/libwvm.so
 vendor/lib/libWVStreamControlAPI_L1.so
 vendor/lib/libxml.so
 vendor/lib/pp_proc_plugin.so
+vendor/lib/mediadrm/libwvdrmengine.so
 vendor/firmware/BCM20791B5_002.006.013.0011.0027_LGE_A1_I2C_NCD_Signed_ORC.ncd
 vendor/firmware/BCM20791B5_002.006.013.0011.0027_LGE_A1_PreI2C_NCD_Signed_ORC.ncd
 vendor/firmware/BCM4335B0_002.001.006.0191.0201_ORC.hcd
