@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-$(call inherit-product, device/lge/g2-common/vzw-g2.mk)
+$(call inherit-product, device/lge/g2-common/g2.mk)
 
 # overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
