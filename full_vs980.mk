@@ -25,7 +25,7 @@ PRODUCT_NAME := full_vs980
 PRODUCT_BRAND := LGE
 PRODUCT_MODEL := LG-VS980
 PRODUCT_MANUFACTURER := lge
-PRODUCT_RESTRICT_VENDOR_FILES := true
+PRODUCT_RESTRICT_VENDOR_FILES := false
 
 # Inherit from hardware-specific part of the product configuration
 $(call inherit-product, device/lge/vs980/device.mk)

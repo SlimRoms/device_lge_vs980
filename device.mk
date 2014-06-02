@@ -27,6 +27,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	ro.cdma.homesystem=64,65,76,77,78,79,80,81,82,83 \
 	ro.com.google.clientidbase=android-verizon
 
+PRODUCT_COPY_FILES += \
+	frameworks/native/data/etc/android.hardware.telephony.cdma.xml:system/etc/permissions/android.hardware.telephony.cdma.xml
+
 # NFC packages
 PRODUCT_PACKAGES += \
     nfc_nci.g2 \
