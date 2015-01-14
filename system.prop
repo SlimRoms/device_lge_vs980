@@ -3,6 +3,7 @@
 #
 
 # RIL
+ro.ril.force_eri_from_xml=true
 ro.telephony.get_imsi_from_sim=true
 rild.libpath=/vendor/lib/libril-qc-qmi-1.so
 rild.libargs=-d /dev/smd0
